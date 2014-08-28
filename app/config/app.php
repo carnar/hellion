@@ -122,6 +122,7 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 		'Laracasts\Commander\CommanderServiceProvider',
+		'Way\Generators\GeneratorsServiceProvider',
 
 	),
 
