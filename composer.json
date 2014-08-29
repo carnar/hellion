@@ -10,7 +10,8 @@
 	"require-dev": {
 	    "way/generators": "2.*",
 	    "mockery/mockery": "dev-master",
-	    "phpunit/phpunit": "4.2.*"
+	    "phpunit/phpunit": "4.2.*",
+	    "fzaninotto/faker": "1.4.*"
 	},
 	"autoload": {
 		"classmap": [
@@ -20,7 +21,10 @@
 			"app/database/migrations",
 			"app/database/seeds",
 			"app/tests/TestCase.php"
-		]
+		],
+		"psr-4": {
+			"Hellion\\": "app/Hellion"
+		}
 	},
 	"scripts": {
 		"post-install-cmd": [
